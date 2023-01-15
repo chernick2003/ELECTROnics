@@ -1,4 +1,7 @@
-@import './reset.css';
+@import './global.css';
+@import './normalize.css';
+@import './card.css';
+@import './grid.css';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
@@ -28,9 +31,7 @@ body {
 	padding-left: calc((100% - var(--container-width)) / 2 + var(--container-padding));
 }
 
-.container-left {
-	padding-right: calc((100% - var(--container-width)) / 2 + var(--container-padding));
-}
+
 
 .block {
 	height: 200px;
